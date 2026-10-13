@@ -42,7 +42,7 @@ skills/
 .claude/agents/
   job-discovery.md       unattended public-board search
   hiring-reviewer.md     isolated, skeptical review of one package
-profile/                 (not included: personal data)
+profile/                 (only *.example.md templates)
 applications/            (not included: personal data)
 scans/                   (not included: personal data)
 ```
