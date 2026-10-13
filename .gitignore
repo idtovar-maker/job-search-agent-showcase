@@ -1,0 +1,30 @@
+# Personal profile data - real name, contact info, work history, compensation
+# expectations, etc. Only the placeholder *.example.md templates are tracked;
+# the real files are never committed.
+profile/*
+!profile/*.example.md
+
+# Generated, per-application materials (tailored CVs, cover letters) -
+# contain personal data tied to a specific employer/posting.
+applications/
+output/
+*.pdf
+*.docx
+
+# Scan files (discovery skills) - saved posting text and scores from the
+# candidate's own browsing sessions, working data not meant to be tracked.
+scans/
+
+# Ad-hoc Claude output drops (tailored CVs, cover letters, reviews,
+# screenshots) - same personal/application data as applications/.
+Claude outputs/
+
+# Secrets / local env
+.env
+.env.*
+*.key
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
