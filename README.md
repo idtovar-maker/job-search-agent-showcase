@@ -43,8 +43,8 @@ skills/
   job-discovery.md       unattended public-board search
   hiring-reviewer.md     isolated, skeptical review of one package
 profile/                 (only *.example.md templates)
-applications/            (not included: personal data)
-scans/                   (not included: personal data)
+applications/            (private, not included in this repo)
+scans/                   (private, not included in this repo)
 ```
 
 Personal data, generated documents, scan results, and the application log are excluded from this repository. The skills refer to the profile files by path; `profile/*.example.md` shows their shape with placeholder content.
